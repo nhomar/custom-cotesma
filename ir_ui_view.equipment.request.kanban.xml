@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- Nombre human: NGHM: equipment.request.kanban (usability)-->
+<data>
+    <xpath expr="//field[@name='name']" position="before">
+        <span><field name="id"/></span><br/>
+    </xpath>
+    <xpath expr="//templates//field[@name='equipment_id']" position="before">
+        <span><field name="request_date"/></span><br/>
+    </xpath>
+</data>
